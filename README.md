@@ -38,26 +38,33 @@ Branches allow you to separate your work from the `main` branch. In other words,
 
 ![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: Activity: Your first branch
+## Step 2: Commit a file
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+_You created a branch! :tada:_
 
-   ![code-tab](/images/code-tab.png)
+Creating a branch allows you to edit your project without changing the `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
 
-3. Click on the **main** branch drop-down.
+**What is a commit?**: A _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ is a set of changes to the files and folders in your project. A commit exists in a branch. For more information, see "[About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
 
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
+## Step 3: Open a pull request
 
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
+_Nice work making that commit! :sparkles:_
 
-   ![create-branch-button](/images/create-branch-button.png)
+Now that you have made a change to the project and created a commit, it’s time to share your proposed change through a pull request!
 
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
+**What is a pull request?**: Collaboration happens on a _[pull request](https://docs.github.com/en/get-started/quickstart/github-glossary#pull-request)_. The pull request shows the changes in your branch to other people and allows people to accept, reject, or suggest additional changes to your branch. In a side by side comparison, this pull request is going to keep the changes you just made on your branch and propose applying them to the `main` project branch. For more information about pull requests, see "[About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)".
 
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+## Step 4: Merge your pull request
+
+_Nicely done! :sunglasses:_
+
+You successfully created a pull request. You can now merge your pull request.
+
+**What is a merge?**: A _[merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge)_ adds the changes in your pull request and branch into the `main` branch. For more information about merges, see "[Merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)."
+
+As noted in the previous step, you may have seen evidence of GitHub Actions running which automatically progresses your instructions to the next step. You'll have to wait for it to finish before you can merge your pull request. It will be ready when the merge pull request button is green.
+
+![screenshot of green merge pull request button](/images/Green-merge-pull-request.png)
 
 <footer>
 
